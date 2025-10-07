@@ -1,6 +1,32 @@
-# Email Server VLANs Router Setup
+Email Server VLANs Router Setup
+Cisco Packet Tracer Project — Email Server with VLANs & Router Inter-VLAN Communication
 
-### Server Setup
+Overview
+This project represents my first full-scale Cisco Packet Tracer setup — a functional email server network integrated with two VLANs connected via a router-on-a-stick configuration.  
+It’s designed to simulate real-world enterprise segmentation and inter-VLAN communication, complete with a working mail service using the domain `mail.com`.
+
+---
+
+ Network Components
+ End Users 4 in VLAN10 and 2 in VLAN20
+ 1 Router (for inter-VLAN routing)
+ 2 Switch (configured with VLANs)
+ 1 Server (configured as Mail Server)
+ VLAN 10 – *Sales Department*  
+ VLAN 20 – *IT Department*
+
+---
+
+ Configuration Summary
+ VLAN Setup
+/ VLAN / Name /  IP Subnet /  Devices  / 
+/------/------/------------/----------/ 
+/ 10 / sales / 192.168.10.0/24 / PC0, PC1 / PC2 / PC3/ 
+/ 20 / IT/ 192.168.20.0/24 / Laptop0/  PC4 / Server0 /
+
+ Router Sub-Interfaces
+
+ Server Setup
 - Static IP:`192.168.20.9`
 - Services Enabled:
   - DNS  
