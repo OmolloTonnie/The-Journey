@@ -19,7 +19,7 @@
 ---
 
 ## 📸 Screenshots
-![Network Topology](network_topology.png)
+![Network Topology] image attached in the main file
 
 ---
 
