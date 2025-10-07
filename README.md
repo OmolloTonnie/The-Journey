@@ -50,7 +50,7 @@ It’s designed to simulate real-world enterprise segmentation and inter-VLAN co
 ---
 
 ## 📂 Files
-- [Email_Server_VLAN_Project.pkt](Email_Server_VLAN_Project.pkt)
+- [Email_Server_VLAN_Project.pkt] check the main file
 
 ---
 
